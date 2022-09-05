@@ -13,5 +13,9 @@ extension Color {
 }
 
 struct ColorTheme{
-    
+    let bg = Color("bg")
+    let primary = Color("primary")
+    let onprimary = Color("onprimary")
+    let sec = Color("sec")
+    let onsec = Color("onsec")
 }
