@@ -21,11 +21,10 @@
 		0466F6D528C12DB6001D7F6A /* Class5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6D428C12DB6001D7F6A /* Class5View.swift */; };
 		0466F6D928C2247F001D7F6A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6D828C2247F001D7F6A /* SearchView.swift */; };
 		0466F6DB28C22830001D7F6A /* Home1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6DA28C22830001D7F6A /* Home1View.swift */; };
-		0466F6E128C40085001D7F6A /* pdfkitdemo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0466F6E028C40085001D7F6A /* pdfkitdemo.pdf */; };
-		0466F6E328C4C412001D7F6A /* BookSolves1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E228C4C412001D7F6A /* BookSolves1View.swift */; };
-		0466F6E528C4CAE1001D7F6A /* BookSolves2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E428C4CAE1001D7F6A /* BookSolves2View.swift */; };
-		0466F6E728C4CC7B001D7F6A /* BookSolves3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E628C4CC7B001D7F6A /* BookSolves3View.swift */; };
-		0466F6E928C4CC90001D7F6A /* BookSolves4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E828C4CC90001D7F6A /* BookSolves4View.swift */; };
+		0466F6E328C4C412001D7F6A /* Book1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E228C4C412001D7F6A /* Book1.swift */; };
+		0466F6E528C4CAE1001D7F6A /* BookSolves1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E428C4CAE1001D7F6A /* BookSolves1.swift */; };
+		0466F6E728C4CC7B001D7F6A /* studyNote1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E628C4CC7B001D7F6A /* studyNote1.swift */; };
+		0466F6E928C4CC90001D7F6A /* electronicExams1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6E828C4CC90001D7F6A /* electronicExams1.swift */; };
 		0466F6F328C51FE5001D7F6A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0466F6ED28C51FE5001D7F6A /* Poppins-Medium.ttf */; };
 		0466F6F428C51FE5001D7F6A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0466F6EE28C51FE5001D7F6A /* Poppins-Bold.ttf */; };
 		0466F6F528C51FE5001D7F6A /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0466F6EF28C51FE5001D7F6A /* SIL Open Font License.txt */; };
@@ -35,6 +34,34 @@
 		0466F6FB28C61F32001D7F6A /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6FA28C61F32001D7F6A /* CustomTabBarView.swift */; };
 		0466F6FD28C61F75001D7F6A /* HomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6FC28C61F75001D7F6A /* HomTabView.swift */; };
 		0466F6FF28C62F3F001D7F6A /* TabCurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F6FE28C62F3E001D7F6A /* TabCurveView.swift */; };
+		0466F73328C69C19001D7F6A /* ArabicBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F73228C69C19001D7F6A /* ArabicBook.swift */; };
+		0466F73628C69C6A001D7F6A /* EinglishBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F73528C69C6A001D7F6A /* EinglishBook.swift */; };
+		0466F73828C69CCE001D7F6A /* QuranBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F73728C69CCE001D7F6A /* QuranBook.swift */; };
+		0466F73A28C69D08001D7F6A /* MathBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F73928C69D08001D7F6A /* MathBook.swift */; };
+		0466F73C28C69D3F001D7F6A /* SciencesBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F73B28C69D3F001D7F6A /* SciencesBook.swift */; };
+		0466F73E28C69D81001D7F6A /* IslamicBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F73D28C69D81001D7F6A /* IslamicBook.swift */; };
+		0466F74028C75024001D7F6A /* Book2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F73F28C75024001D7F6A /* Book2.swift */; };
+		0466F74228C7508A001D7F6A /* BookSolves2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F74128C7508A001D7F6A /* BookSolves2.swift */; };
+		0466F74428C750A4001D7F6A /* studyNote2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F74328C750A4001D7F6A /* studyNote2.swift */; };
+		0466F74628C750C0001D7F6A /* electronicExams2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F74528C750C0001D7F6A /* electronicExams2.swift */; };
+		0466F74C28C751E7001D7F6A /* Book3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F74B28C751E7001D7F6A /* Book3.swift */; };
+		0466F74E28C75314001D7F6A /* BookSolves3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F74D28C75313001D7F6A /* BookSolves3.swift */; };
+		0466F75028C7532C001D7F6A /* electronicExams3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F74F28C7532C001D7F6A /* electronicExams3.swift */; };
+		0466F75228C75345001D7F6A /* studyNote3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75128C75345001D7F6A /* studyNote3.swift */; };
+		0466F75428C75352001D7F6A /* studyNote4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75328C75352001D7F6A /* studyNote4.swift */; };
+		0466F75628C7535B001D7F6A /* studyNote5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75528C7535B001D7F6A /* studyNote5.swift */; };
+		0466F75828C7539A001D7F6A /* electronicExams5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75728C7539A001D7F6A /* electronicExams5.swift */; };
+		0466F75A28C753A8001D7F6A /* electronicExams4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75928C753A8001D7F6A /* electronicExams4.swift */; };
+		0466F75C28C753C3001D7F6A /* BookSolves5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75B28C753C3001D7F6A /* BookSolves5.swift */; };
+		0466F75E28C753CE001D7F6A /* BookSolves4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75D28C753CE001D7F6A /* BookSolves4.swift */; };
+		0466F76028C753DD001D7F6A /* Book4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F75F28C753DD001D7F6A /* Book4.swift */; };
+		0466F76228C753EB001D7F6A /* Book5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F76128C753EB001D7F6A /* Book5.swift */; };
+		0466F76428C75A99001D7F6A /* SciencesBook2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F76328C75A99001D7F6A /* SciencesBook2.swift */; };
+		0466F76628C75ABC001D7F6A /* ArabicBook2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F76528C75ABC001D7F6A /* ArabicBook2.swift */; };
+		0466F76828C75AE5001D7F6A /* QuranBook2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F76728C75AE5001D7F6A /* QuranBook2.swift */; };
+		0466F76A28C75AF5001D7F6A /* MathBook2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F76928C75AF5001D7F6A /* MathBook2.swift */; };
+		0466F76C28C75B06001D7F6A /* EinglishBook2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F76B28C75B06001D7F6A /* EinglishBook2.swift */; };
+		0466F76E28C75B1A001D7F6A /* IslamicBook2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0466F76D28C75B1A001D7F6A /* IslamicBook2.swift */; };
 		0468690628BA2D0800ED2362 /* finaly_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468690528BA2D0800ED2362 /* finaly_projectApp.swift */; };
 		0468690828BA2D0800ED2362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468690728BA2D0800ED2362 /* ContentView.swift */; };
 		0468690D28BA2D0900ED2362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0468690C28BA2D0900ED2362 /* Preview Assets.xcassets */; };
@@ -56,11 +83,10 @@
 		0466F6D428C12DB6001D7F6A /* Class5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class5View.swift; sourceTree = "<group>"; };
 		0466F6D828C2247F001D7F6A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		0466F6DA28C22830001D7F6A /* Home1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1View.swift; sourceTree = "<group>"; };
-		0466F6E028C40085001D7F6A /* pdfkitdemo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pdfkitdemo.pdf; sourceTree = "<group>"; };
-		0466F6E228C4C412001D7F6A /* BookSolves1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves1View.swift; sourceTree = "<group>"; };
-		0466F6E428C4CAE1001D7F6A /* BookSolves2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves2View.swift; sourceTree = "<group>"; };
-		0466F6E628C4CC7B001D7F6A /* BookSolves3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves3View.swift; sourceTree = "<group>"; };
-		0466F6E828C4CC90001D7F6A /* BookSolves4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves4View.swift; sourceTree = "<group>"; };
+		0466F6E228C4C412001D7F6A /* Book1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book1.swift; sourceTree = "<group>"; };
+		0466F6E428C4CAE1001D7F6A /* BookSolves1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves1.swift; sourceTree = "<group>"; };
+		0466F6E628C4CC7B001D7F6A /* studyNote1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyNote1.swift; sourceTree = "<group>"; };
+		0466F6E828C4CC90001D7F6A /* electronicExams1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronicExams1.swift; sourceTree = "<group>"; };
 		0466F6ED28C51FE5001D7F6A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		0466F6EE28C51FE5001D7F6A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		0466F6EF28C51FE5001D7F6A /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
@@ -71,6 +97,34 @@
 		0466F6FA28C61F32001D7F6A /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		0466F6FC28C61F75001D7F6A /* HomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomTabView.swift; sourceTree = "<group>"; };
 		0466F6FE28C62F3E001D7F6A /* TabCurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCurveView.swift; sourceTree = "<group>"; };
+		0466F73228C69C19001D7F6A /* ArabicBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook.swift; sourceTree = "<group>"; };
+		0466F73528C69C6A001D7F6A /* EinglishBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook.swift; sourceTree = "<group>"; };
+		0466F73728C69CCE001D7F6A /* QuranBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook.swift; sourceTree = "<group>"; };
+		0466F73928C69D08001D7F6A /* MathBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook.swift; sourceTree = "<group>"; };
+		0466F73B28C69D3F001D7F6A /* SciencesBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook.swift; sourceTree = "<group>"; };
+		0466F73D28C69D81001D7F6A /* IslamicBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook.swift; sourceTree = "<group>"; };
+		0466F73F28C75024001D7F6A /* Book2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book2.swift; sourceTree = "<group>"; };
+		0466F74128C7508A001D7F6A /* BookSolves2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves2.swift; sourceTree = "<group>"; };
+		0466F74328C750A4001D7F6A /* studyNote2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyNote2.swift; sourceTree = "<group>"; };
+		0466F74528C750C0001D7F6A /* electronicExams2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronicExams2.swift; sourceTree = "<group>"; };
+		0466F74B28C751E7001D7F6A /* Book3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book3.swift; sourceTree = "<group>"; };
+		0466F74D28C75313001D7F6A /* BookSolves3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves3.swift; sourceTree = "<group>"; };
+		0466F74F28C7532C001D7F6A /* electronicExams3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronicExams3.swift; sourceTree = "<group>"; };
+		0466F75128C75345001D7F6A /* studyNote3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyNote3.swift; sourceTree = "<group>"; };
+		0466F75328C75352001D7F6A /* studyNote4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyNote4.swift; sourceTree = "<group>"; };
+		0466F75528C7535B001D7F6A /* studyNote5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyNote5.swift; sourceTree = "<group>"; };
+		0466F75728C7539A001D7F6A /* electronicExams5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronicExams5.swift; sourceTree = "<group>"; };
+		0466F75928C753A8001D7F6A /* electronicExams4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = electronicExams4.swift; sourceTree = "<group>"; };
+		0466F75B28C753C3001D7F6A /* BookSolves5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves5.swift; sourceTree = "<group>"; };
+		0466F75D28C753CE001D7F6A /* BookSolves4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSolves4.swift; sourceTree = "<group>"; };
+		0466F75F28C753DD001D7F6A /* Book4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book4.swift; sourceTree = "<group>"; };
+		0466F76128C753EB001D7F6A /* Book5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book5.swift; sourceTree = "<group>"; };
+		0466F76328C75A99001D7F6A /* SciencesBook2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook2.swift; sourceTree = "<group>"; };
+		0466F76528C75ABC001D7F6A /* ArabicBook2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook2.swift; sourceTree = "<group>"; };
+		0466F76728C75AE5001D7F6A /* QuranBook2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook2.swift; sourceTree = "<group>"; };
+		0466F76928C75AF5001D7F6A /* MathBook2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook2.swift; sourceTree = "<group>"; };
+		0466F76B28C75B06001D7F6A /* EinglishBook2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook2.swift; sourceTree = "<group>"; };
+		0466F76D28C75B1A001D7F6A /* IslamicBook2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook2.swift; sourceTree = "<group>"; };
 		0468690228BA2D0800ED2362 /* finaly project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "finaly project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0468690528BA2D0800ED2362 /* finaly_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finaly_projectApp.swift; sourceTree = "<group>"; };
 		0468690728BA2D0800ED2362 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +156,117 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		0466F72E28C6913D001D7F6A /* class 1-5 */ = {
+			isa = PBXGroup;
+			children = (
+				0466F74A28C75189001D7F6A /* PropertiesClass5 */,
+				0466F74928C75175001D7F6A /* PropertiesClass4 */,
+				0466F74828C75162001D7F6A /* PropertiesClass3 */,
+				0466F74728C7511D001D7F6A /* PropertiesClass2 */,
+				0466F74528C750C0001D7F6A /* electronicExams2.swift */,
+				0466F74328C750A4001D7F6A /* studyNote2.swift */,
+				0466F74128C7508A001D7F6A /* BookSolves2.swift */,
+				0466F73F28C75024001D7F6A /* Book2.swift */,
+				0466F76D28C75B1A001D7F6A /* IslamicBook2.swift */,
+				0466F76B28C75B06001D7F6A /* EinglishBook2.swift */,
+				0466F76928C75AF5001D7F6A /* MathBook2.swift */,
+				0466F76728C75AE5001D7F6A /* QuranBook2.swift */,
+				0466F76528C75ABC001D7F6A /* ArabicBook2.swift */,
+				0466F76328C75A99001D7F6A /* SciencesBook2.swift */,
+				0466F72F28C69178001D7F6A /* PropertiesClass1 */,
+			);
+			path = "class 1-5";
+			sourceTree = "<group>";
+		};
+		0466F72F28C69178001D7F6A /* PropertiesClass1 */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6CC28C123A6001D7F6A /* Class1View.swift */,
+				0466F6E828C4CC90001D7F6A /* electronicExams1.swift */,
+				0466F6E628C4CC7B001D7F6A /* studyNote1.swift */,
+				0466F6E428C4CAE1001D7F6A /* BookSolves1.swift */,
+				0466F6E228C4C412001D7F6A /* Book1.swift */,
+				0466F73428C69C2A001D7F6A /* materials */,
+			);
+			path = PropertiesClass1;
+			sourceTree = "<group>";
+		};
+		0466F73028C691A0001D7F6A /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6CA28C11517001D7F6A /* Button2View.swift */,
+				0466F6C628C10725001D7F6A /* Botton1View.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		0466F73128C69211001D7F6A /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6FA28C61F32001D7F6A /* CustomTabBarView.swift */,
+				0466F6FC28C61F75001D7F6A /* HomTabView.swift */,
+				0466F6FE28C62F3E001D7F6A /* TabCurveView.swift */,
+			);
+			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		0466F73428C69C2A001D7F6A /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				0466F73228C69C19001D7F6A /* ArabicBook.swift */,
+				0466F73B28C69D3F001D7F6A /* SciencesBook.swift */,
+				0466F73528C69C6A001D7F6A /* EinglishBook.swift */,
+				0466F73728C69CCE001D7F6A /* QuranBook.swift */,
+				0466F73928C69D08001D7F6A /* MathBook.swift */,
+				0466F73D28C69D81001D7F6A /* IslamicBook.swift */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
+		0466F74728C7511D001D7F6A /* PropertiesClass2 */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6CE28C12D81001D7F6A /* Class2View.swift */,
+			);
+			path = PropertiesClass2;
+			sourceTree = "<group>";
+		};
+		0466F74828C75162001D7F6A /* PropertiesClass3 */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6D028C12D97001D7F6A /* Class3View.swift */,
+				0466F75128C75345001D7F6A /* studyNote3.swift */,
+				0466F74F28C7532C001D7F6A /* electronicExams3.swift */,
+				0466F74D28C75313001D7F6A /* BookSolves3.swift */,
+				0466F74B28C751E7001D7F6A /* Book3.swift */,
+			);
+			path = PropertiesClass3;
+			sourceTree = "<group>";
+		};
+		0466F74928C75175001D7F6A /* PropertiesClass4 */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6D228C12DA7001D7F6A /* Class4View.swift */,
+				0466F75D28C753CE001D7F6A /* BookSolves4.swift */,
+				0466F75F28C753DD001D7F6A /* Book4.swift */,
+				0466F75928C753A8001D7F6A /* electronicExams4.swift */,
+				0466F75328C75352001D7F6A /* studyNote4.swift */,
+			);
+			path = PropertiesClass4;
+			sourceTree = "<group>";
+		};
+		0466F74A28C75189001D7F6A /* PropertiesClass5 */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6D428C12DB6001D7F6A /* Class5View.swift */,
+				0466F75528C7535B001D7F6A /* studyNote5.swift */,
+				0466F75728C7539A001D7F6A /* electronicExams5.swift */,
+				0466F75B28C753C3001D7F6A /* BookSolves5.swift */,
+				0466F76128C753EB001D7F6A /* Book5.swift */,
+			);
+			path = PropertiesClass5;
+			sourceTree = "<group>";
+		};
 		046868F928BA2D0800ED2362 = {
 			isa = PBXGroup;
 			children = (
@@ -123,25 +288,13 @@
 			isa = PBXGroup;
 			children = (
 				0466F6F928C52234001D7F6A /* finaly-project-Info.plist */,
-				0466F6E028C40085001D7F6A /* pdfkitdemo.pdf */,
 				0468690528BA2D0800ED2362 /* finaly_projectApp.swift */,
 				0468690728BA2D0800ED2362 /* ContentView.swift */,
-				0466F6FA28C61F32001D7F6A /* CustomTabBarView.swift */,
-				0466F6FC28C61F75001D7F6A /* HomTabView.swift */,
-				0466F6FE28C62F3E001D7F6A /* TabCurveView.swift */,
+				0466F73128C69211001D7F6A /* TabBarView */,
 				0466F6DA28C22830001D7F6A /* Home1View.swift */,
 				0466F6D828C2247F001D7F6A /* SearchView.swift */,
-				0466F6D428C12DB6001D7F6A /* Class5View.swift */,
-				0466F6D228C12DA7001D7F6A /* Class4View.swift */,
-				0466F6D028C12D97001D7F6A /* Class3View.swift */,
-				0466F6CE28C12D81001D7F6A /* Class2View.swift */,
-				0466F6CC28C123A6001D7F6A /* Class1View.swift */,
-				0466F6E828C4CC90001D7F6A /* BookSolves4View.swift */,
-				0466F6E628C4CC7B001D7F6A /* BookSolves3View.swift */,
-				0466F6E428C4CAE1001D7F6A /* BookSolves2View.swift */,
-				0466F6E228C4C412001D7F6A /* BookSolves1View.swift */,
-				0466F6CA28C11517001D7F6A /* Button2View.swift */,
-				0466F6C628C10725001D7F6A /* Botton1View.swift */,
+				0466F72E28C6913D001D7F6A /* class 1-5 */,
+				0466F73028C691A0001D7F6A /* Button */,
 				0466F6C828C109FB001D7F6A /* HomeView.swift */,
 				0466F6C428BFA6CE001D7F6A /* SettingsView.swift */,
 				0432EEB228BF9013003A35E9 /* loginView.swift */,
@@ -223,7 +376,6 @@
 				0466F6F828C51FE5001D7F6A /* Poppins-Light.ttf in Resources */,
 				0468690D28BA2D0900ED2362 /* Preview Assets.xcassets in Resources */,
 				0466F6F428C51FE5001D7F6A /* Poppins-Bold.ttf in Resources */,
-				0466F6E128C40085001D7F6A /* pdfkitdemo.pdf in Resources */,
 				0432EEAF28BE550E003A35E9 /* Assets.xcassets in Resources */,
 				0468691428BAC9F300ED2362 /* Launch Screen .storyboard in Resources */,
 				0466F6F728C51FE5001D7F6A /* Poppins-SemiBold.ttf in Resources */,
@@ -241,25 +393,53 @@
 			files = (
 				0466F6FD28C61F75001D7F6A /* HomTabView.swift in Sources */,
 				0466F6C528BFA6CE001D7F6A /* SettingsView.swift in Sources */,
-				0466F6E728C4CC7B001D7F6A /* BookSolves3View.swift in Sources */,
+				0466F75828C7539A001D7F6A /* electronicExams5.swift in Sources */,
+				0466F76628C75ABC001D7F6A /* ArabicBook2.swift in Sources */,
+				0466F6E728C4CC7B001D7F6A /* studyNote1.swift in Sources */,
+				0466F73628C69C6A001D7F6A /* EinglishBook.swift in Sources */,
+				0466F75E28C753CE001D7F6A /* BookSolves4.swift in Sources */,
+				0466F76228C753EB001D7F6A /* Book5.swift in Sources */,
+				0466F73A28C69D08001D7F6A /* MathBook.swift in Sources */,
+				0466F73C28C69D3F001D7F6A /* SciencesBook.swift in Sources */,
+				0466F75028C7532C001D7F6A /* electronicExams3.swift in Sources */,
 				0466F6C928C109FB001D7F6A /* HomeView.swift in Sources */,
+				0466F74C28C751E7001D7F6A /* Book3.swift in Sources */,
 				0432EEB128BF8963003A35E9 /* ColorExtension.swift in Sources */,
 				0466F6CD28C123A6001D7F6A /* Class1View.swift in Sources */,
+				0466F75228C75345001D7F6A /* studyNote3.swift in Sources */,
+				0466F76E28C75B1A001D7F6A /* IslamicBook2.swift in Sources */,
 				0466F6DB28C22830001D7F6A /* Home1View.swift in Sources */,
-				0466F6E928C4CC90001D7F6A /* BookSolves4View.swift in Sources */,
+				0466F6E928C4CC90001D7F6A /* electronicExams1.swift in Sources */,
 				0468690828BA2D0800ED2362 /* ContentView.swift in Sources */,
-				0466F6E528C4CAE1001D7F6A /* BookSolves2View.swift in Sources */,
+				0466F76C28C75B06001D7F6A /* EinglishBook2.swift in Sources */,
+				0466F74628C750C0001D7F6A /* electronicExams2.swift in Sources */,
+				0466F74228C7508A001D7F6A /* BookSolves2.swift in Sources */,
+				0466F74028C75024001D7F6A /* Book2.swift in Sources */,
+				0466F6E528C4CAE1001D7F6A /* BookSolves1.swift in Sources */,
 				0432EEB328BF9013003A35E9 /* loginView.swift in Sources */,
-				0466F6E328C4C412001D7F6A /* BookSolves1View.swift in Sources */,
+				0466F6E328C4C412001D7F6A /* Book1.swift in Sources */,
 				0466F6FB28C61F32001D7F6A /* CustomTabBarView.swift in Sources */,
 				0466F6CB28C11517001D7F6A /* Button2View.swift in Sources */,
 				0466F6C728C10726001D7F6A /* Botton1View.swift in Sources */,
+				0466F74E28C75314001D7F6A /* BookSolves3.swift in Sources */,
 				0466F6D328C12DA7001D7F6A /* Class4View.swift in Sources */,
+				0466F75C28C753C3001D7F6A /* BookSolves5.swift in Sources */,
+				0466F75A28C753A8001D7F6A /* electronicExams4.swift in Sources */,
 				0466F6D128C12D97001D7F6A /* Class3View.swift in Sources */,
+				0466F76A28C75AF5001D7F6A /* MathBook2.swift in Sources */,
 				0466F6D928C2247F001D7F6A /* SearchView.swift in Sources */,
+				0466F73828C69CCE001D7F6A /* QuranBook.swift in Sources */,
 				0466F6CF28C12D82001D7F6A /* Class2View.swift in Sources */,
 				0468690628BA2D0800ED2362 /* finaly_projectApp.swift in Sources */,
+				0466F76828C75AE5001D7F6A /* QuranBook2.swift in Sources */,
+				0466F75428C75352001D7F6A /* studyNote4.swift in Sources */,
+				0466F73328C69C19001D7F6A /* ArabicBook.swift in Sources */,
+				0466F75628C7535B001D7F6A /* studyNote5.swift in Sources */,
+				0466F73E28C69D81001D7F6A /* IslamicBook.swift in Sources */,
 				0466F6FF28C62F3F001D7F6A /* TabCurveView.swift in Sources */,
+				0466F76028C753DD001D7F6A /* Book4.swift in Sources */,
+				0466F76428C75A99001D7F6A /* SciencesBook2.swift in Sources */,
+				0466F74428C750A4001D7F6A /* studyNote2.swift in Sources */,
 				0466F6D528C12DB6001D7F6A /* Class5View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

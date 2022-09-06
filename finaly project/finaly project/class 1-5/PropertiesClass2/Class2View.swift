@@ -1,5 +1,5 @@
 //
-//  Class3View.swift
+//  Class2View.swift
 //  finaly project
 //
 //  Created by mac on 01/09/2022.
@@ -7,27 +7,27 @@
 
 import SwiftUI
 
-struct Class3View: View {
+struct Class2View: View {
     var body: some View {
         VStack{
             
 
         HStack{
-            NavigationLink(destination: BookSolves2View()) {
-                ExtractedView(Properties:  "book", Book: "2")
+            NavigationLink(destination: Book2()) {
+                Class2(Properties:  "book", Book: "2")
             
         Spacer()
-        NavigationLink(destination: BookSolves1View()) {
-            ExtractedView(Properties:  "book solution", Book: "1")
+        NavigationLink(destination: BookSolves2()) {
+            Class2(Properties:  "book solution", Book: "1")
                     }
                 }
             } .padding(28)
             HStack{
-            NavigationLink(destination: BookSolves3View()) {
-                ExtractedView(Properties:  "study note", Book: "3")
+            NavigationLink(destination: studyNote2()) {
+                Class2(Properties:  "study note", Book: "3")
                 Spacer()
-                NavigationLink(destination: BookSolves4View()) {
-                    ExtractedView(Properties:  "electronic exams", Book: "4")
+                NavigationLink(destination: electronicExams2()) {
+                    Class2(Properties:  "electronic exams", Book: "4")
                     }
                 }
             } .padding(28)
@@ -42,12 +42,12 @@ struct Class3View: View {
     }
 }
 
-struct Class3View_Previews: PreviewProvider {
+struct Class2View_Previews: PreviewProvider {
     static var previews: some View {
-        Class3View()
+        Class2View()
     }
 }
-struct Class3: View {
+struct Class2: View {
     @State var Properties : String
     @State var Book : String
     var body: some View {

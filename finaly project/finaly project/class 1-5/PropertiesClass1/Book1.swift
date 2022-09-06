@@ -7,22 +7,22 @@
 
 import SwiftUI
 
-struct BookSolves1View: View {
+struct Material: View {
     var body: some View {
         VStack{
-            
+            // الكتاب
             ScrollView (.horizontal) {
         HStack{
-            NavigationLink(destination: BookSolves4View()) {
-                project(Properties:  "Sciences", Book: "science")
+            NavigationLink(destination: SciencesBook()) {
+                Material5(Properties:  "Sciences", Book: "science")
                 }
             
-            NavigationLink(destination: BookSolves2View()) {
-                project(Properties:  "Arabic", Book: "arabic-language")
+            NavigationLink(destination: ArabicBook()) {
+                Material5(Properties:  "Arabic", Book: "arabic-language")
             
         Spacer()
-        NavigationLink(destination: BookSolves1View()) {
-            project(Properties:  "quran", Book: "quran")
+        NavigationLink(destination: QuranBook()) {
+            Material5(Properties:  "quran", Book: "quran")
                     }
                 }
             
@@ -31,15 +31,15 @@ struct BookSolves1View: View {
             
             ScrollView (.horizontal) {
             HStack{
-            NavigationLink(destination: BookSolves3View()) {
-                project(Properties:  "Math", Book: "123 (2)")
+            NavigationLink(destination: MathBook()) {
+                Material5(Properties:  "Math", Book: "123 (2)")
             }
                 Spacer()
-                NavigationLink(destination: BookSolves4View()) {
-                    project(Properties:  "Einglish", Book: "alphabet")
+                NavigationLink(destination: EinglishBook()) {
+                    Material5(Properties:  "Einglish", Book: "alphabet")
                     }
-                NavigationLink(destination: BookSolves4View()) {
-                    project(Properties:  "Islamic", Book: "mosque (1)")
+                NavigationLink(destination: IslamicBook()) {
+                    Material5(Properties:  "Islamic", Book: "mosque (1)")
                 }
             }
             } .padding(.leading, 7)
@@ -57,7 +57,7 @@ struct BookSolves1View: View {
 
 
 
-struct project: View {
+struct Material5: View {
     @State var Properties : String
     @State var Book : String
     var body: some View {
@@ -87,8 +87,8 @@ struct project: View {
     }
 
 
-struct BookSolves1View_Previews: PreviewProvider {
+struct Book1_Previews: PreviewProvider {
     static var previews: some View {
-        BookSolves1View()
+        Material()
     }
 }

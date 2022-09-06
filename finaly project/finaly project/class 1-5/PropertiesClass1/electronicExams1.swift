@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct BookSolves4View: View {
+struct Material3: View {
     var body: some View {
-        Text("ggs")
+        Text("اختبار الكتروني")
     }
 }
 
 struct BookSolves4View_Previews: PreviewProvider {
     static var previews: some View {
-        BookSolves4View()
+        Material3()
     }
 }

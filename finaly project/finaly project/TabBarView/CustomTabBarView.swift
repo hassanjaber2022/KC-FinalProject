@@ -15,8 +15,6 @@ struct CustomTabBarView: View {
         
             
             
-            // Custom Tap Bar ....
-            
             
             HomTabView(selectedTab: $selectedTab)
             

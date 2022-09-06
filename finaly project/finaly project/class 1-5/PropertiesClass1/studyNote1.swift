@@ -1,5 +1,5 @@
 //
-//  BookSolves2View.swift
+//  BookSolves3View.swift
 //  finaly project
 //
 //  Created by mac on 04/09/2022.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct BookSolves2View: View {
+struct Material2: View {
     var body: some View {
-        Text("hassan")
+        Text("مذكره")
     }
 }
 
-struct BookSolves2View_Previews: PreviewProvider {
+struct BookSolves3View_Previews: PreviewProvider {
     static var previews: some View {
-        BookSolves2View()
+        Material2()
     }
 }

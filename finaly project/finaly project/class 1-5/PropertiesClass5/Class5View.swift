@@ -13,20 +13,20 @@ struct Class5View: View {
             
 
         HStack{
-            NavigationLink(destination: BookSolves2View()) {
+            NavigationLink(destination: Book5()) {
                 ExtractedView(Properties:  "book", Book: "2")
             
         Spacer()
-        NavigationLink(destination: BookSolves1View()) {
+        NavigationLink(destination: BookSolves5()) {
             ExtractedView(Properties:  "book solution", Book: "1")
                     }
                 }
             } .padding(28)
             HStack{
-            NavigationLink(destination: BookSolves3View()) {
+            NavigationLink(destination: studyNote5()) {
                 ExtractedView(Properties:  "study note", Book: "3")
                 Spacer()
-                NavigationLink(destination: BookSolves4View()) {
+                NavigationLink(destination: electronicExams5()) {
                     ExtractedView(Properties:  "electronic exams", Book: "4")
                     }
                 }
