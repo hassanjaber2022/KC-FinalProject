@@ -10,10 +10,12 @@ import SwiftUI
 struct SettingsView: View {
     @State var names = ["حول", "مشاركة التطبيق"]
     var body: some View {
+        NavigationView{
         List(names, id:\.self) {setting in
             
-            NavigationLink(destination: Text("test")) {
+            NavigationLink(destination: Text("امتياز \n هي منصه تسعى لتسهل دراسه الطلاب في المرحله الابتدائيه والمتوسط والثانوي")) {
                 Text(setting)
+                }
             }
         }
     }

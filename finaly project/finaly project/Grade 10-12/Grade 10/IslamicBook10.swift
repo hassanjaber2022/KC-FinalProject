@@ -9,7 +9,7 @@ import SwiftUI
 
 struct IslamicBook10: View {
     var body: some View {
-        Link(destination: URL(string: "https://www.youtube.com")!, label: {
+        Link(destination: URL(string: "https://school-kw.com/file/6148/")!, label: {
                 Text("Go To Book")
             .frame(width: 300, height: 70)
             .foregroundColor(Color.white)
@@ -24,4 +24,5 @@ struct IslamicBook10_Previews: PreviewProvider {
         IslamicBook10()
     }
 }
+
 

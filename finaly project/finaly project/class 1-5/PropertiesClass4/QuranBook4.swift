@@ -8,18 +8,15 @@
 import SwiftUI
 
 struct QuranBook4: View {
-    let Quran22 = ["Quran1","Quran2","Quran3","Quran4"]
     var body: some View {
-        VStack{
-            ScrollView{
-        ForEach(Quran22, id: \.self) { oneQuran in
-            
-            Image(oneQuran)
-                .resizable()
-                .scaledToFit()
-                }
-    }
-}
+        Link(destination: URL(string: "https://school-kw.com/file/6086/")!, label: {
+                Text("Go To Book")
+            .frame(width: 300, height: 70)
+            .foregroundColor(Color.white)
+            .background(Color("adnan"))
+            .cornerRadius(12)
+        })
+                
     }
 }
 

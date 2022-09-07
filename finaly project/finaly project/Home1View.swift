@@ -34,7 +34,7 @@ struct Home1View: View {
                             Spacer()
                         
                         } .padding(.bottom)
-                NavigationLink(destination: SettingsView()
+                NavigationLink(destination: BellView()
                 ){
                     Image(systemName: "bell")
                         .resizable()
@@ -83,7 +83,7 @@ struct Home1View: View {
             VStack{
 
             HStack{
-                Text("Choose your")
+                Text("Choose One")
                     .font(.title2)
                     .padding()
              Spacer()
@@ -108,7 +108,7 @@ struct Home1View: View {
             }
             
             HStack{
-            Text("Choose Your Class")
+            Text("Choose Your Class - Primary")
                     .font(.custom("Poppins-Bold", size: 17))
                     .padding()
             Spacer()
@@ -133,48 +133,48 @@ struct Home1View: View {
                     }
                 }
                 HStack{
-                    Text("Choose Your Class")
+                    Text("Choose Your Class - Preparatory")
                     Spacer()
                     
                 } .padding()
                 
                 ScrollView(.horizontal){
                 HStack{
-                NavigationLink(destination: Class7View()) {
+                NavigationLink(destination: Class6View()) {
                     Class(Grade: "Grade Six", hsn: "6")
                     }
                     
-                    NavigationLink(destination: Class8View()) {
+                    NavigationLink(destination: Class7View()) {
                         Class(Grade: "Grade Seven", hsn: "7")
                         }
                     
-                    NavigationLink(destination: Class9View()) {
+                    NavigationLink(destination: Class8View()) {
                         Class(Grade: "Grade Eight", hsn: "8")
                         }
                     
-                    NavigationLink(destination: Class10View()) {
+                    NavigationLink(destination: Class9View()) {
                         Class(Grade: "Grade Nine", hsn: "9")
                         }
                     }
                 }
                 
                 HStack{
-                    Text("Choose Your Class")
+                    Text("Choose Your Class - Secondray")
                     Spacer()
                 } .padding()
                 
                 ScrollView(.horizontal){
                 HStack{
                     
-                NavigationLink(destination: Class2View()) {
+                NavigationLink(destination: Class10View()) {
                     Class(Grade: "Grade Ten", hsn: "10")
                     }
                     
-                    NavigationLink(destination: Class2View()) {
+                    NavigationLink(destination: Class11View()) {
                         Class(Grade: "Grade Eleven", hsn: "11")
                         }
                     
-                    NavigationLink(destination: Class2View()) {
+                    NavigationLink(destination: Class12View()) {
                         Class(Grade: "Grade Twele", hsn: "12")
                         }
                     }

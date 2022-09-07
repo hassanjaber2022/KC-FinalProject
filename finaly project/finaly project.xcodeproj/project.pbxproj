@@ -76,6 +76,7 @@
 		041E0FE228C91658002E6129 /* MathBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FE128C91657002E6129 /* MathBook12.swift */; };
 		041E0FE428C91665002E6129 /* EinglishBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FE328C91665002E6129 /* EinglishBook12.swift */; };
 		041E0FE628C91673002E6129 /* IslamicBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FE528C91673002E6129 /* IslamicBook12.swift */; };
+		041E0FED28C934E1002E6129 /* BellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FEC28C934E1002E6129 /* BellView.swift */; };
 		0432EEAF28BE550E003A35E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432EEAE28BE550E003A35E9 /* Assets.xcassets */; };
 		0432EEB128BF8963003A35E9 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432EEB028BF8963003A35E9 /* ColorExtension.swift */; };
 		0432EEB328BF9013003A35E9 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432EEB228BF9013003A35E9 /* loginView.swift */; };
@@ -207,6 +208,7 @@
 		041E0FE128C91657002E6129 /* MathBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook12.swift; sourceTree = "<group>"; };
 		041E0FE328C91665002E6129 /* EinglishBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook12.swift; sourceTree = "<group>"; };
 		041E0FE528C91673002E6129 /* IslamicBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook12.swift; sourceTree = "<group>"; };
+		041E0FEC28C934E1002E6129 /* BellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellView.swift; sourceTree = "<group>"; };
 		0432EEAE28BE550E003A35E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0432EEB028BF8963003A35E9 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		0432EEB228BF9013003A35E9 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
@@ -574,6 +576,7 @@
 				0468690728BA2D0800ED2362 /* ContentView.swift */,
 				041E0F8428C90339002E6129 /* Model.swift */,
 				0466F6DA28C22830001D7F6A /* Home1View.swift */,
+				041E0FEC28C934E1002E6129 /* BellView.swift */,
 				041E0FC228C91469002E6129 /* Grade 10-12 */,
 				0466F73128C69211001D7F6A /* TabBarView */,
 				041E0F7728C8D01B002E6129 /* Grade 6-9 */,
@@ -705,6 +708,7 @@
 				041E0FAB28C911B4002E6129 /* SciencesBook9.swift in Sources */,
 				0466F75028C7532C001D7F6A /* electronicExams3.swift in Sources */,
 				041E0FAF28C911D4002E6129 /* QuranBook9.swift in Sources */,
+				041E0FED28C934E1002E6129 /* BellView.swift in Sources */,
 				041E0F5E28C7D7B3002E6129 /* IslamicBook3.swift in Sources */,
 				041E0F8728C91024002E6129 /* SciencesBook6.swift in Sources */,
 				041E0FB328C911F0002E6129 /* EinglishBook9.swift in Sources */,

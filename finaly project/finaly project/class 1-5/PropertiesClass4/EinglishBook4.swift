@@ -8,18 +8,16 @@
 import SwiftUI
 
 struct EinglishBook4: View {
-    let Einglis4 = ["Einglish-1","Einglish-2","Einglish-3","Einglish-4"]
     var body: some View {
-        VStack{
-            ScrollView{
-        ForEach(Einglis4, id: \.self) { onemath in
-            
-            Image(onemath)
-                .resizable()
-                .scaledToFit()
-                }
-    }
-}
+        
+        Link(destination: URL(string: "https://school-kw.com/file/1616/")!, label: {
+                Text("Go To Book")
+            .frame(width: 300, height: 70)
+            .foregroundColor(Color.white)
+            .background(Color("adnan"))
+            .cornerRadius(12)
+        })
+    
     }
 }
 
