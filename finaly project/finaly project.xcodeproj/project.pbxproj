@@ -31,6 +31,51 @@
 		041E0F7F28C8D641002E6129 /* MathBook5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F7E28C8D641002E6129 /* MathBook5.swift */; };
 		041E0F8328C8FD1F002E6129 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F8228C8FD1F002E6129 /* SavedView.swift */; };
 		041E0F8528C90339002E6129 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F8428C90339002E6129 /* Model.swift */; };
+		041E0F8728C91024002E6129 /* SciencesBook6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F8628C91023002E6129 /* SciencesBook6.swift */; };
+		041E0F8928C91035002E6129 /* ArabicBook6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F8828C91035002E6129 /* ArabicBook6.swift */; };
+		041E0F8B28C91044002E6129 /* QuranBook6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F8A28C91044002E6129 /* QuranBook6.swift */; };
+		041E0F8D28C91057002E6129 /* MathBook6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F8C28C91057002E6129 /* MathBook6.swift */; };
+		041E0F8F28C9106A002E6129 /* EinglishBook6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F8E28C9106A002E6129 /* EinglishBook6.swift */; };
+		041E0F9128C9107A002E6129 /* IslamicBook6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9028C9107A002E6129 /* IslamicBook6.swift */; };
+		041E0F9328C910C4002E6129 /* SciencesBook7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9228C910C4002E6129 /* SciencesBook7.swift */; };
+		041E0F9528C910D6002E6129 /* ArabicBook7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9428C910D6002E6129 /* ArabicBook7.swift */; };
+		041E0F9728C910E9002E6129 /* QuranBook7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9628C910E9002E6129 /* QuranBook7.swift */; };
+		041E0F9928C910FB002E6129 /* MathBook7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9828C910FB002E6129 /* MathBook7.swift */; };
+		041E0F9B28C91106002E6129 /* EinglishBook7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9A28C91106002E6129 /* EinglishBook7.swift */; };
+		041E0F9D28C91112002E6129 /* IslamicBook7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9C28C91112002E6129 /* IslamicBook7.swift */; };
+		041E0F9F28C91123002E6129 /* SciencesBook8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0F9E28C91123002E6129 /* SciencesBook8.swift */; };
+		041E0FA128C91131002E6129 /* ArabicBook8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FA028C91131002E6129 /* ArabicBook8.swift */; };
+		041E0FA328C91140002E6129 /* QuranBook8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FA228C91140002E6129 /* QuranBook8.swift */; };
+		041E0FA528C9114E002E6129 /* MathBook8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FA428C9114E002E6129 /* MathBook8.swift */; };
+		041E0FA728C9115D002E6129 /* EinglishBook8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FA628C9115D002E6129 /* EinglishBook8.swift */; };
+		041E0FA928C9116A002E6129 /* IslamicBook8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FA828C9116A002E6129 /* IslamicBook8.swift */; };
+		041E0FAB28C911B4002E6129 /* SciencesBook9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FAA28C911B4002E6129 /* SciencesBook9.swift */; };
+		041E0FAD28C911C7002E6129 /* ArabicBook9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FAC28C911C7002E6129 /* ArabicBook9.swift */; };
+		041E0FAF28C911D4002E6129 /* QuranBook9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FAE28C911D4002E6129 /* QuranBook9.swift */; };
+		041E0FB128C911E1002E6129 /* MathBook9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FB028C911E0002E6129 /* MathBook9.swift */; };
+		041E0FB328C911F0002E6129 /* EinglishBook9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FB228C911F0002E6129 /* EinglishBook9.swift */; };
+		041E0FB528C911FD002E6129 /* IslamicBook9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FB428C911FD002E6129 /* IslamicBook9.swift */; };
+		041E0FBD28C913B3002E6129 /* Class10View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FBC28C913B3002E6129 /* Class10View.swift */; };
+		041E0FBF28C913C3002E6129 /* Class11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FBE28C913C3002E6129 /* Class11View.swift */; };
+		041E0FC128C913D0002E6129 /* Class12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FC028C913D0002E6129 /* Class12View.swift */; };
+		041E0FC428C9156B002E6129 /* SciencesBook10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FC328C9156A002E6129 /* SciencesBook10.swift */; };
+		041E0FC628C91584002E6129 /* ArabicBook10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FC528C91584002E6129 /* ArabicBook10.swift */; };
+		041E0FC828C91592002E6129 /* QuranBook10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FC728C91591002E6129 /* QuranBook10.swift */; };
+		041E0FCA28C915A1002E6129 /* MathBook10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FC928C915A1002E6129 /* MathBook10.swift */; };
+		041E0FCC28C915AC002E6129 /* EinglishBook10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FCB28C915AC002E6129 /* EinglishBook10.swift */; };
+		041E0FCE28C915B9002E6129 /* IslamicBook10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FCD28C915B9002E6129 /* IslamicBook10.swift */; };
+		041E0FD028C915E3002E6129 /* SciencesBook11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FCF28C915E3002E6129 /* SciencesBook11.swift */; };
+		041E0FD228C915F3002E6129 /* ArabicBook11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FD128C915F3002E6129 /* ArabicBook11.swift */; };
+		041E0FD428C91600002E6129 /* QuranBook11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FD328C91600002E6129 /* QuranBook11.swift */; };
+		041E0FD628C9160B002E6129 /* MathBook11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FD528C9160B002E6129 /* MathBook11.swift */; };
+		041E0FD828C91617002E6129 /* EinglishBook11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FD728C91617002E6129 /* EinglishBook11.swift */; };
+		041E0FDA28C91622002E6129 /* IslamicBook11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FD928C91622002E6129 /* IslamicBook11.swift */; };
+		041E0FDC28C91634002E6129 /* SciencesBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FDB28C91634002E6129 /* SciencesBook12.swift */; };
+		041E0FDE28C91640002E6129 /* ArabicBook612.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FDD28C91640002E6129 /* ArabicBook612.swift */; };
+		041E0FE028C9164B002E6129 /* QuranBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FDF28C9164B002E6129 /* QuranBook12.swift */; };
+		041E0FE228C91658002E6129 /* MathBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FE128C91657002E6129 /* MathBook12.swift */; };
+		041E0FE428C91665002E6129 /* EinglishBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FE328C91665002E6129 /* EinglishBook12.swift */; };
+		041E0FE628C91673002E6129 /* IslamicBook12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041E0FE528C91673002E6129 /* IslamicBook12.swift */; };
 		0432EEAF28BE550E003A35E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432EEAE28BE550E003A35E9 /* Assets.xcassets */; };
 		0432EEB128BF8963003A35E9 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432EEB028BF8963003A35E9 /* ColorExtension.swift */; };
 		0432EEB328BF9013003A35E9 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432EEB228BF9013003A35E9 /* loginView.swift */; };
@@ -117,6 +162,51 @@
 		041E0F7E28C8D641002E6129 /* MathBook5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook5.swift; sourceTree = "<group>"; };
 		041E0F8228C8FD1F002E6129 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
 		041E0F8428C90339002E6129 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		041E0F8628C91023002E6129 /* SciencesBook6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook6.swift; sourceTree = "<group>"; };
+		041E0F8828C91035002E6129 /* ArabicBook6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook6.swift; sourceTree = "<group>"; };
+		041E0F8A28C91044002E6129 /* QuranBook6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook6.swift; sourceTree = "<group>"; };
+		041E0F8C28C91057002E6129 /* MathBook6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook6.swift; sourceTree = "<group>"; };
+		041E0F8E28C9106A002E6129 /* EinglishBook6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook6.swift; sourceTree = "<group>"; };
+		041E0F9028C9107A002E6129 /* IslamicBook6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook6.swift; sourceTree = "<group>"; };
+		041E0F9228C910C4002E6129 /* SciencesBook7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook7.swift; sourceTree = "<group>"; };
+		041E0F9428C910D6002E6129 /* ArabicBook7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook7.swift; sourceTree = "<group>"; };
+		041E0F9628C910E9002E6129 /* QuranBook7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook7.swift; sourceTree = "<group>"; };
+		041E0F9828C910FB002E6129 /* MathBook7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook7.swift; sourceTree = "<group>"; };
+		041E0F9A28C91106002E6129 /* EinglishBook7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook7.swift; sourceTree = "<group>"; };
+		041E0F9C28C91112002E6129 /* IslamicBook7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook7.swift; sourceTree = "<group>"; };
+		041E0F9E28C91123002E6129 /* SciencesBook8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook8.swift; sourceTree = "<group>"; };
+		041E0FA028C91131002E6129 /* ArabicBook8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook8.swift; sourceTree = "<group>"; };
+		041E0FA228C91140002E6129 /* QuranBook8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook8.swift; sourceTree = "<group>"; };
+		041E0FA428C9114E002E6129 /* MathBook8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook8.swift; sourceTree = "<group>"; };
+		041E0FA628C9115D002E6129 /* EinglishBook8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook8.swift; sourceTree = "<group>"; };
+		041E0FA828C9116A002E6129 /* IslamicBook8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook8.swift; sourceTree = "<group>"; };
+		041E0FAA28C911B4002E6129 /* SciencesBook9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook9.swift; sourceTree = "<group>"; };
+		041E0FAC28C911C7002E6129 /* ArabicBook9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook9.swift; sourceTree = "<group>"; };
+		041E0FAE28C911D4002E6129 /* QuranBook9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook9.swift; sourceTree = "<group>"; };
+		041E0FB028C911E0002E6129 /* MathBook9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook9.swift; sourceTree = "<group>"; };
+		041E0FB228C911F0002E6129 /* EinglishBook9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook9.swift; sourceTree = "<group>"; };
+		041E0FB428C911FD002E6129 /* IslamicBook9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook9.swift; sourceTree = "<group>"; };
+		041E0FBC28C913B3002E6129 /* Class10View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class10View.swift; sourceTree = "<group>"; };
+		041E0FBE28C913C3002E6129 /* Class11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class11View.swift; sourceTree = "<group>"; };
+		041E0FC028C913D0002E6129 /* Class12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class12View.swift; sourceTree = "<group>"; };
+		041E0FC328C9156A002E6129 /* SciencesBook10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook10.swift; sourceTree = "<group>"; };
+		041E0FC528C91584002E6129 /* ArabicBook10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook10.swift; sourceTree = "<group>"; };
+		041E0FC728C91591002E6129 /* QuranBook10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook10.swift; sourceTree = "<group>"; };
+		041E0FC928C915A1002E6129 /* MathBook10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook10.swift; sourceTree = "<group>"; };
+		041E0FCB28C915AC002E6129 /* EinglishBook10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook10.swift; sourceTree = "<group>"; };
+		041E0FCD28C915B9002E6129 /* IslamicBook10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook10.swift; sourceTree = "<group>"; };
+		041E0FCF28C915E3002E6129 /* SciencesBook11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook11.swift; sourceTree = "<group>"; };
+		041E0FD128C915F3002E6129 /* ArabicBook11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook11.swift; sourceTree = "<group>"; };
+		041E0FD328C91600002E6129 /* QuranBook11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook11.swift; sourceTree = "<group>"; };
+		041E0FD528C9160B002E6129 /* MathBook11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook11.swift; sourceTree = "<group>"; };
+		041E0FD728C91617002E6129 /* EinglishBook11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook11.swift; sourceTree = "<group>"; };
+		041E0FD928C91622002E6129 /* IslamicBook11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook11.swift; sourceTree = "<group>"; };
+		041E0FDB28C91634002E6129 /* SciencesBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SciencesBook12.swift; sourceTree = "<group>"; };
+		041E0FDD28C91640002E6129 /* ArabicBook612.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArabicBook612.swift; sourceTree = "<group>"; };
+		041E0FDF28C9164B002E6129 /* QuranBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranBook12.swift; sourceTree = "<group>"; };
+		041E0FE128C91657002E6129 /* MathBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBook12.swift; sourceTree = "<group>"; };
+		041E0FE328C91665002E6129 /* EinglishBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinglishBook12.swift; sourceTree = "<group>"; };
+		041E0FE528C91673002E6129 /* IslamicBook12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicBook12.swift; sourceTree = "<group>"; };
 		0432EEAE28BE550E003A35E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0432EEB028BF8963003A35E9 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		0432EEB228BF9013003A35E9 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
@@ -194,12 +284,130 @@
 		041E0F7728C8D01B002E6129 /* Grade 6-9 */ = {
 			isa = PBXGroup;
 			children = (
-				041E0F6F28C7EEE1002E6129 /* Class6View.swift */,
-				041E0F7128C8C9CB002E6129 /* Class7View.swift */,
-				041E0F7328C8C9D6002E6129 /* Class8View.swift */,
-				041E0F7528C8C9E5002E6129 /* Class9View.swift */,
+				041E0FBA28C91329002E6129 /* Grade 6 */,
+				041E0FB928C91312002E6129 /* Grade 7 */,
+				041E0FB728C912C7002E6129 /* Grade 8 */,
+				041E0FB628C9120A002E6129 /* Grade 9 */,
 			);
 			path = "Grade 6-9";
+			sourceTree = "<group>";
+		};
+		041E0FB628C9120A002E6129 /* Grade 9 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0F7528C8C9E5002E6129 /* Class9View.swift */,
+				041E0FAE28C911D4002E6129 /* QuranBook9.swift */,
+				041E0FAC28C911C7002E6129 /* ArabicBook9.swift */,
+				041E0FAA28C911B4002E6129 /* SciencesBook9.swift */,
+				041E0FB428C911FD002E6129 /* IslamicBook9.swift */,
+				041E0FB228C911F0002E6129 /* EinglishBook9.swift */,
+				041E0FB028C911E0002E6129 /* MathBook9.swift */,
+			);
+			path = "Grade 9";
+			sourceTree = "<group>";
+		};
+		041E0FB728C912C7002E6129 /* Grade 8 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0F7328C8C9D6002E6129 /* Class8View.swift */,
+				041E0FA828C9116A002E6129 /* IslamicBook8.swift */,
+				041E0FA628C9115D002E6129 /* EinglishBook8.swift */,
+				041E0FA428C9114E002E6129 /* MathBook8.swift */,
+				041E0FA228C91140002E6129 /* QuranBook8.swift */,
+				041E0FA028C91131002E6129 /* ArabicBook8.swift */,
+				041E0F9E28C91123002E6129 /* SciencesBook8.swift */,
+			);
+			path = "Grade 8";
+			sourceTree = "<group>";
+		};
+		041E0FB928C91312002E6129 /* Grade 7 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0F7128C8C9CB002E6129 /* Class7View.swift */,
+				041E0F9C28C91112002E6129 /* IslamicBook7.swift */,
+				041E0F9A28C91106002E6129 /* EinglishBook7.swift */,
+				041E0F9828C910FB002E6129 /* MathBook7.swift */,
+				041E0F9628C910E9002E6129 /* QuranBook7.swift */,
+				041E0F9428C910D6002E6129 /* ArabicBook7.swift */,
+				041E0F9228C910C4002E6129 /* SciencesBook7.swift */,
+			);
+			path = "Grade 7";
+			sourceTree = "<group>";
+		};
+		041E0FBA28C91329002E6129 /* Grade 6 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0F6F28C7EEE1002E6129 /* Class6View.swift */,
+				041E0F9028C9107A002E6129 /* IslamicBook6.swift */,
+				041E0F8E28C9106A002E6129 /* EinglishBook6.swift */,
+				041E0F8C28C91057002E6129 /* MathBook6.swift */,
+				041E0F8A28C91044002E6129 /* QuranBook6.swift */,
+				041E0F8828C91035002E6129 /* ArabicBook6.swift */,
+				041E0F8628C91023002E6129 /* SciencesBook6.swift */,
+			);
+			path = "Grade 6";
+			sourceTree = "<group>";
+		};
+		041E0FBB28C9136B002E6129 /* Grade 10-12 */ = {
+			isa = PBXGroup;
+			children = (
+				0466F6FA28C61F32001D7F6A /* CustomTabBarView.swift */,
+				0466F6FC28C61F75001D7F6A /* HomTabView.swift */,
+				0466F6FE28C62F3E001D7F6A /* TabCurveView.swift */,
+			);
+			path = "Grade 10-12";
+			sourceTree = "<group>";
+		};
+		041E0FC228C91469002E6129 /* Grade 10-12 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0FE928C916CC002E6129 /* Grade 10 */,
+				041E0FE828C916A8002E6129 /* Grade 11 */,
+				041E0FE728C91682002E6129 /* Grade 12 */,
+			);
+			path = "Grade 10-12";
+			sourceTree = "<group>";
+		};
+		041E0FE728C91682002E6129 /* Grade 12 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0FC028C913D0002E6129 /* Class12View.swift */,
+				041E0FE528C91673002E6129 /* IslamicBook12.swift */,
+				041E0FE328C91665002E6129 /* EinglishBook12.swift */,
+				041E0FE128C91657002E6129 /* MathBook12.swift */,
+				041E0FDF28C9164B002E6129 /* QuranBook12.swift */,
+				041E0FDD28C91640002E6129 /* ArabicBook612.swift */,
+				041E0FDB28C91634002E6129 /* SciencesBook12.swift */,
+			);
+			path = "Grade 12";
+			sourceTree = "<group>";
+		};
+		041E0FE828C916A8002E6129 /* Grade 11 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0FBE28C913C3002E6129 /* Class11View.swift */,
+				041E0FD928C91622002E6129 /* IslamicBook11.swift */,
+				041E0FD728C91617002E6129 /* EinglishBook11.swift */,
+				041E0FD528C9160B002E6129 /* MathBook11.swift */,
+				041E0FD328C91600002E6129 /* QuranBook11.swift */,
+				041E0FD128C915F3002E6129 /* ArabicBook11.swift */,
+				041E0FCF28C915E3002E6129 /* SciencesBook11.swift */,
+			);
+			path = "Grade 11";
+			sourceTree = "<group>";
+		};
+		041E0FE928C916CC002E6129 /* Grade 10 */ = {
+			isa = PBXGroup;
+			children = (
+				041E0FBC28C913B3002E6129 /* Class10View.swift */,
+				041E0FCD28C915B9002E6129 /* IslamicBook10.swift */,
+				041E0FCB28C915AC002E6129 /* EinglishBook10.swift */,
+				041E0FC928C915A1002E6129 /* MathBook10.swift */,
+				041E0FC728C91591002E6129 /* QuranBook10.swift */,
+				041E0FC528C91584002E6129 /* ArabicBook10.swift */,
+				041E0FC328C9156A002E6129 /* SciencesBook10.swift */,
+			);
+			path = "Grade 10";
 			sourceTree = "<group>";
 		};
 		0466F6EC28C51F7D001D7F6A /* Fonts */ = {
@@ -222,7 +430,6 @@
 				0466F74928C75175001D7F6A /* PropertiesClass4 */,
 				0466F74828C75162001D7F6A /* PropertiesClass3 */,
 				0466F74728C7511D001D7F6A /* PropertiesClass2 */,
-				0466F72F28C69178001D7F6A /* PropertiesClass1 */,
 			);
 			path = "class 1-5";
 			sourceTree = "<group>";
@@ -230,6 +437,7 @@
 		0466F72F28C69178001D7F6A /* PropertiesClass1 */ = {
 			isa = PBXGroup;
 			children = (
+				041E0FBB28C9136B002E6129 /* Grade 10-12 */,
 				0466F6CC28C123A6001D7F6A /* Class1View.swift */,
 				0466F6E828C4CC90001D7F6A /* electronicExams1.swift */,
 				0466F6E628C4CC7B001D7F6A /* studyNote1.swift */,
@@ -254,9 +462,6 @@
 		0466F73128C69211001D7F6A /* TabBarView */ = {
 			isa = PBXGroup;
 			children = (
-				0466F6FA28C61F32001D7F6A /* CustomTabBarView.swift */,
-				0466F6FC28C61F75001D7F6A /* HomTabView.swift */,
-				0466F6FE28C62F3E001D7F6A /* TabCurveView.swift */,
 			);
 			path = TabBarView;
 			sourceTree = "<group>";
@@ -369,6 +574,7 @@
 				0468690728BA2D0800ED2362 /* ContentView.swift */,
 				041E0F8428C90339002E6129 /* Model.swift */,
 				0466F6DA28C22830001D7F6A /* Home1View.swift */,
+				041E0FC228C91469002E6129 /* Grade 10-12 */,
 				0466F73128C69211001D7F6A /* TabBarView */,
 				041E0F7728C8D01B002E6129 /* Grade 6-9 */,
 				0466F72E28C6913D001D7F6A /* class 1-5 */,
@@ -389,6 +595,7 @@
 		0468690B28BA2D0900ED2362 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				0466F72F28C69178001D7F6A /* PropertiesClass1 */,
 				0468690C28BA2D0900ED2362 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -471,15 +678,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041E0FCC28C915AC002E6129 /* EinglishBook10.swift in Sources */,
 				041E0F7928C8D5D9002E6129 /* SciencesBook5.swift in Sources */,
 				041E0F5828C7D78C002E6129 /* QuranBook3.swift in Sources */,
 				041E0F7228C8C9CB002E6129 /* Class7View.swift in Sources */,
+				041E0FA528C9114E002E6129 /* MathBook8.swift in Sources */,
+				041E0FC128C913D0002E6129 /* Class12View.swift in Sources */,
 				0466F6FD28C61F75001D7F6A /* HomTabView.swift in Sources */,
 				0466F6C528BFA6CE001D7F6A /* SettingsView.swift in Sources */,
 				0466F75828C7539A001D7F6A /* electronicExams5.swift in Sources */,
 				0466F76628C75ABC001D7F6A /* ArabicBook2.swift in Sources */,
 				0466F6E728C4CC7B001D7F6A /* studyNote1.swift in Sources */,
+				041E0F9528C910D6002E6129 /* ArabicBook7.swift in Sources */,
 				0466F73628C69C6A001D7F6A /* EinglishBook.swift in Sources */,
+				041E0FD628C9160B002E6129 /* MathBook11.swift in Sources */,
 				041E0F6C28C7E4D2002E6129 /* Button3View.swift in Sources */,
 				0466F75E28C753CE001D7F6A /* BookSolves4.swift in Sources */,
 				041E0F8528C90339002E6129 /* Model.swift in Sources */,
@@ -487,52 +699,83 @@
 				0466F76228C753EB001D7F6A /* Book5.swift in Sources */,
 				0466F73A28C69D08001D7F6A /* MathBook.swift in Sources */,
 				041E0F6628C7D995002E6129 /* MathBook4.swift in Sources */,
+				041E0F9128C9107A002E6129 /* IslamicBook6.swift in Sources */,
+				041E0F8F28C9106A002E6129 /* EinglishBook6.swift in Sources */,
 				0466F73C28C69D3F001D7F6A /* SciencesBook.swift in Sources */,
+				041E0FAB28C911B4002E6129 /* SciencesBook9.swift in Sources */,
 				0466F75028C7532C001D7F6A /* electronicExams3.swift in Sources */,
+				041E0FAF28C911D4002E6129 /* QuranBook9.swift in Sources */,
 				041E0F5E28C7D7B3002E6129 /* IslamicBook3.swift in Sources */,
+				041E0F8728C91024002E6129 /* SciencesBook6.swift in Sources */,
+				041E0FB328C911F0002E6129 /* EinglishBook9.swift in Sources */,
 				0466F6C928C109FB001D7F6A /* HomeView.swift in Sources */,
 				041E0F5628C7D770002E6129 /* ArabicBook3.swift in Sources */,
+				041E0FB528C911FD002E6129 /* IslamicBook9.swift in Sources */,
 				0466F74C28C751E7001D7F6A /* Book3.swift in Sources */,
+				041E0FDA28C91622002E6129 /* IslamicBook11.swift in Sources */,
+				041E0FE628C91673002E6129 /* IslamicBook12.swift in Sources */,
+				041E0FD028C915E3002E6129 /* SciencesBook11.swift in Sources */,
+				041E0F9B28C91106002E6129 /* EinglishBook7.swift in Sources */,
 				0432EEB128BF8963003A35E9 /* ColorExtension.swift in Sources */,
 				0466F6CD28C123A6001D7F6A /* Class1View.swift in Sources */,
+				041E0FA928C9116A002E6129 /* IslamicBook8.swift in Sources */,
 				0466F75228C75345001D7F6A /* studyNote3.swift in Sources */,
 				041E0F8328C8FD1F002E6129 /* SavedView.swift in Sources */,
 				041E0F7B28C8D5F1002E6129 /* ArabicBook5.swift in Sources */,
 				041E0F5C28C7D7A7002E6129 /* EinglishBook3.swift in Sources */,
 				0466F76E28C75B1A001D7F6A /* IslamicBook2.swift in Sources */,
+				041E0FBD28C913B3002E6129 /* Class10View.swift in Sources */,
 				0466F6DB28C22830001D7F6A /* Home1View.swift in Sources */,
+				041E0F8928C91035002E6129 /* ArabicBook6.swift in Sources */,
+				041E0FD828C91617002E6129 /* EinglishBook11.swift in Sources */,
 				041E0F7F28C8D641002E6129 /* MathBook5.swift in Sources */,
 				041E0F7028C7EEE1002E6129 /* Class6View.swift in Sources */,
+				041E0F9F28C91123002E6129 /* SciencesBook8.swift in Sources */,
 				0466F6E928C4CC90001D7F6A /* electronicExams1.swift in Sources */,
+				041E0FDE28C91640002E6129 /* ArabicBook612.swift in Sources */,
 				0468690828BA2D0800ED2362 /* ContentView.swift in Sources */,
+				041E0F9328C910C4002E6129 /* SciencesBook7.swift in Sources */,
 				041E0F7628C8C9E5002E6129 /* Class9View.swift in Sources */,
 				041E0F6828C7D9A1002E6129 /* EinglishBook4.swift in Sources */,
 				0466F76C28C75B06001D7F6A /* EinglishBook2.swift in Sources */,
 				0466F74628C750C0001D7F6A /* electronicExams2.swift in Sources */,
+				041E0FCE28C915B9002E6129 /* IslamicBook10.swift in Sources */,
+				041E0F9728C910E9002E6129 /* QuranBook7.swift in Sources */,
 				0466F74228C7508A001D7F6A /* BookSolves2.swift in Sources */,
 				041E0F7428C8C9D6002E6129 /* Class8View.swift in Sources */,
+				041E0FD428C91600002E6129 /* QuranBook11.swift in Sources */,
 				0466F74028C75024001D7F6A /* Book2.swift in Sources */,
 				0466F6E528C4CAE1001D7F6A /* BookSolves1.swift in Sources */,
 				0432EEB328BF9013003A35E9 /* loginView.swift in Sources */,
+				041E0FB128C911E1002E6129 /* MathBook9.swift in Sources */,
 				0466F6E328C4C412001D7F6A /* Book1.swift in Sources */,
+				041E0FAD28C911C7002E6129 /* ArabicBook9.swift in Sources */,
 				0466F6FB28C61F32001D7F6A /* CustomTabBarView.swift in Sources */,
 				0466F6CB28C11517001D7F6A /* Button2View.swift in Sources */,
+				041E0FE228C91658002E6129 /* MathBook12.swift in Sources */,
 				0466F6C728C10726001D7F6A /* Botton1View.swift in Sources */,
 				041E0F6228C7D974002E6129 /* ArabicBook4.swift in Sources */,
+				041E0FD228C915F3002E6129 /* ArabicBook11.swift in Sources */,
+				041E0FA728C9115D002E6129 /* EinglishBook8.swift in Sources */,
 				0466F74E28C75314001D7F6A /* BookSolves3.swift in Sources */,
 				041E0F5428C7D758002E6129 /* SciencesBook3.swift in Sources */,
 				0466F6D328C12DA7001D7F6A /* Class4View.swift in Sources */,
 				0466F75C28C753C3001D7F6A /* BookSolves5.swift in Sources */,
 				0466F75A28C753A8001D7F6A /* electronicExams4.swift in Sources */,
+				041E0F8D28C91057002E6129 /* MathBook6.swift in Sources */,
 				0466F6D128C12D97001D7F6A /* Class3View.swift in Sources */,
 				0466F76A28C75AF5001D7F6A /* MathBook2.swift in Sources */,
+				041E0FC428C9156B002E6129 /* SciencesBook10.swift in Sources */,
 				0466F6D928C2247F001D7F6A /* SearchView.swift in Sources */,
 				0466F73828C69CCE001D7F6A /* QuranBook.swift in Sources */,
 				0466F6CF28C12D82001D7F6A /* Class2View.swift in Sources */,
+				041E0F9928C910FB002E6129 /* MathBook7.swift in Sources */,
 				0468690628BA2D0800ED2362 /* finaly_projectApp.swift in Sources */,
 				0466F76828C75AE5001D7F6A /* QuranBook2.swift in Sources */,
 				041E0F6A28C7D9B0002E6129 /* IslamicBook4.swift in Sources */,
 				0466F75428C75352001D7F6A /* studyNote4.swift in Sources */,
+				041E0FA128C91131002E6129 /* ArabicBook8.swift in Sources */,
+				041E0FE428C91665002E6129 /* EinglishBook12.swift in Sources */,
 				0466F73328C69C19001D7F6A /* ArabicBook.swift in Sources */,
 				0466F75628C7535B001D7F6A /* studyNote5.swift in Sources */,
 				041E0F6E28C7E4E0002E6129 /* Button4View.swift in Sources */,
@@ -541,10 +784,19 @@
 				0466F6FF28C62F3F001D7F6A /* TabCurveView.swift in Sources */,
 				0466F76028C753DD001D7F6A /* Book4.swift in Sources */,
 				0466F76428C75A99001D7F6A /* SciencesBook2.swift in Sources */,
+				041E0FDC28C91634002E6129 /* SciencesBook12.swift in Sources */,
 				041E0F7D28C8D61A002E6129 /* QuranBook5.swift in Sources */,
+				041E0FE028C9164B002E6129 /* QuranBook12.swift in Sources */,
+				041E0F9D28C91112002E6129 /* IslamicBook7.swift in Sources */,
 				0466F74428C750A4001D7F6A /* studyNote2.swift in Sources */,
+				041E0FBF28C913C3002E6129 /* Class11View.swift in Sources */,
+				041E0FA328C91140002E6129 /* QuranBook8.swift in Sources */,
 				0466F6D528C12DB6001D7F6A /* Class5View.swift in Sources */,
+				041E0FCA28C915A1002E6129 /* MathBook10.swift in Sources */,
+				041E0FC628C91584002E6129 /* ArabicBook10.swift in Sources */,
 				041E0F6428C7D988002E6129 /* QuranBook4.swift in Sources */,
+				041E0F8B28C91044002E6129 /* QuranBook6.swift in Sources */,
+				041E0FC828C91592002E6129 /* QuranBook10.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

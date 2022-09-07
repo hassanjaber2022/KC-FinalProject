@@ -12,7 +12,7 @@ struct Home1View: View {
     @State var SecondView = ""
     var body: some View {
 //        NavigationView{
-            
+        NavigationView{
         ZStack{
             Color.white
                 .ignoresSafeArea()
@@ -140,19 +140,19 @@ struct Home1View: View {
                 
                 ScrollView(.horizontal){
                 HStack{
-                NavigationLink(destination: Class6View()) {
+                NavigationLink(destination: Class7View()) {
                     Class(Grade: "Grade Six", hsn: "6")
                     }
                     
-                    NavigationLink(destination: Class5View()) {
+                    NavigationLink(destination: Class8View()) {
                         Class(Grade: "Grade Seven", hsn: "7")
                         }
                     
-                    NavigationLink(destination: Class5View()) {
+                    NavigationLink(destination: Class9View()) {
                         Class(Grade: "Grade Eight", hsn: "8")
                         }
                     
-                    NavigationLink(destination: Class5View()) {
+                    NavigationLink(destination: Class10View()) {
                         Class(Grade: "Grade Nine", hsn: "9")
                         }
                     }
@@ -166,15 +166,15 @@ struct Home1View: View {
                 ScrollView(.horizontal){
                 HStack{
                     
-                NavigationLink(destination: Class5View()) {
+                NavigationLink(destination: Class2View()) {
                     Class(Grade: "Grade Ten", hsn: "10")
                     }
                     
-                    NavigationLink(destination: Class5View()) {
+                    NavigationLink(destination: Class2View()) {
                         Class(Grade: "Grade Eleven", hsn: "11")
                         }
                     
-                    NavigationLink(destination: Class5View()) {
+                    NavigationLink(destination: Class2View()) {
                         Class(Grade: "Grade Twele", hsn: "12")
                         }
                     }
@@ -186,7 +186,7 @@ struct Home1View: View {
                 }.navigationBarHidden(true)
             }
         }
-    
+}
 struct Home1View_Previews: PreviewProvider {
     static var previews: some View {
         Home1View()

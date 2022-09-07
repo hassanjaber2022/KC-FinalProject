@@ -1,5 +1,5 @@
 //
-//  Class7View.swift
+//  Books10.swift
 //  finaly project
 //
 //  Created by mac on 07/09/2022.
@@ -7,53 +7,53 @@
 
 import SwiftUI
 
-struct Class7View: View {
+struct Books10: View {
     var body: some View {
         VStack{
             ScrollView (.horizontal) {
         HStack{
-            NavigationLink(destination: SciencesBook4()) {
+            NavigationLink(destination: SciencesBook10()) {
                 material4(Properties:  "Sciences", Book: "science")
                 }
-            
-            NavigationLink(destination: ArabicBook4()) {
+
+            NavigationLink(destination: ArabicBook10()) {
                 material4(Properties:  "Arabic", Book: "arabic-language")
-            
+
         Spacer()
-        NavigationLink(destination: QuranBook4()) {
+        NavigationLink(destination: QuranBook10()) {
             material4(Properties:  "quran", Book: "quran")
                     }
                 }
-            
+
         }
-             
-            
-            
+
+
+
             HStack{
-            NavigationLink(destination: MathBook4()) {
+            NavigationLink(destination: MathBook10()) {
                 material4(Properties:  "Math", Book: "123 (2)")
             }
                 Spacer()
-                NavigationLink(destination: EinglishBook4()) {
+                NavigationLink(destination: EinglishBook10()) {
                     material4(Properties:  "Einglish", Book: "alphabet")
                     }
-                NavigationLink(destination: IslamicBook4()) {
+                NavigationLink(destination: IslamicBook10()) {
                     material4(Properties:  "Islamic", Book: "mosque (1)")
                 }
             }
-            
+
             } .padding(.leading, 7)
     }
     }
 }
 
-struct Class7View_Previews: PreviewProvider {
+struct Books10_Previews: PreviewProvider {
     static var previews: some View {
-        Class7View()
+        Books10()
     }
 }
 
-struct Class7: View {
+struct Class10: View {
     @State var Properties : String
     @State var Book : String
     var body: some View {

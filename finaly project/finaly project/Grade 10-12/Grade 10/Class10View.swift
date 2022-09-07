@@ -1,5 +1,5 @@
 //
-//  Class8View.swift
+//  Class10View.swift
 //  finaly project
 //
 //  Created by mac on 07/09/2022.
@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct Class8View: View {
+struct Class10View: View {
     var body: some View {
         VStack{
             ScrollView (.horizontal) {
         HStack{
-            NavigationLink(destination: SciencesBook4()) {
+            NavigationLink(destination: SciencesBook10()) {
                 material4(Properties:  "Sciences", Book: "science")
                 }
             
-            NavigationLink(destination: ArabicBook4()) {
+            NavigationLink(destination: ArabicBook10()) {
                 material4(Properties:  "Arabic", Book: "arabic-language")
             
         Spacer()
-        NavigationLink(destination: QuranBook4()) {
+        NavigationLink(destination: QuranBook10()) {
             material4(Properties:  "quran", Book: "quran")
                     }
                 }
@@ -30,14 +30,14 @@ struct Class8View: View {
             
             
             HStack{
-            NavigationLink(destination: MathBook4()) {
+            NavigationLink(destination: MathBook10()) {
                 material4(Properties:  "Math", Book: "123 (2)")
             }
                 Spacer()
-                NavigationLink(destination: EinglishBook4()) {
+                NavigationLink(destination: EinglishBook10()) {
                     material4(Properties:  "Einglish", Book: "alphabet")
                     }
-                NavigationLink(destination: IslamicBook4()) {
+                NavigationLink(destination: IslamicBook10()) {
                     material4(Properties:  "Islamic", Book: "mosque (1)")
                 }
             }
@@ -47,37 +47,36 @@ struct Class8View: View {
     }
 }
 
-struct Class8View_Previews: PreviewProvider {
-    @State var Properties : String
-    @State var Book : String
+struct Class10View_Previews: PreviewProvider {
     static var previews: some View {
-        Class8View()
+        Class10View()
     }
 }
-struct Class8: View {
+
+struct Class10: View {
     @State var Properties : String
     @State var Book : String
     var body: some View {
-HStack{
-    VStack {
         HStack{
-    Text(Book)
-                .frame(width: 80, height: 80)
-                .font(.largeTitle)
-            Spacer()
+            VStack {
+                HStack{
+            Text(Book)
+                        .frame(width: 80, height: 80)
+                        .font(.largeTitle)
+                    Spacer()
+                }
+            Text(Properties)
+                .font(.title2)
+        
+            } .padding()
+            
         }
-    Text(Properties)
-        .font(.title2)
+        .foregroundColor(Color.white)
+        .frame(width: 172, height: 220)
+        .background(
+            LinearGradient(gradient: Gradient(colors: [Color("onsec"), Color("adnan")]), startPoint: .topTrailing, endPoint: .bottom)
+        )
 
-    } .padding()
-    
-}
-.foregroundColor(Color.white)
-.frame(width: 172, height: 220)
-.background(
-    LinearGradient(gradient: Gradient(colors: [Color("onsec"), Color("adnan")]), startPoint: .topTrailing, endPoint: .bottom)
-)
-
-.cornerRadius(34)
+    .cornerRadius(34)
+        }
     }
-}
