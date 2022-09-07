@@ -11,34 +11,29 @@ struct Class1View: View {
     var body: some View {
         
         VStack{
-            
+            Spacer()
 
         HStack{
             NavigationLink(destination: Material()) {
-                ExtractedView(Properties:  "book", Book: "2")
+                ExtractedView(Properties:  "Book", Book: "2")
             
         Spacer()
         NavigationLink(destination: Material1()) {
-            ExtractedView(Properties:  "book solution", Book: "1")
+            ExtractedView(Properties:  "Book Solution", Book: "1")
                     }
                 }
+            
             } .padding(28)
             HStack{
             NavigationLink(destination: Material2()) {
-                ExtractedView(Properties:  "study note", Book: "3")
+                ExtractedView(Properties:  "Study Note", Book: "3")
                 Spacer()
                 NavigationLink(destination: Material3()) {
-                    ExtractedView(Properties:  "electronic exams", Book: "4")
+                    ExtractedView(Properties:  "Electronic Exams", Book: "4")
                     }
-                }
+            }
             } .padding(28)
-            HStack{
-                Spacer()
-            Image("study")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 500, height: 300)
-            } .padding(.trailing, -50)
+            Spacer()
         }
     }
 }

@@ -22,7 +22,7 @@ struct HomTabView: View {
             
             TabBarButton(image: "magnifyingglass", selectedTab: $selectedTab, tabPoints: $tabPoints)
             
-            TabBarButton(image: "book", selectedTab: $selectedTab, tabPoints: $tabPoints)
+            TabBarButton(image: "gearshape", selectedTab: $selectedTab, tabPoints: $tabPoints)
         }
         .padding()
         .background(
@@ -57,6 +57,7 @@ struct HomTabView: View {
 struct HomTabView_Previews: PreviewProvider {
     static var previews: some View {
         CustomTabBarView()
+            
     }
 }
 struct TabBarButton: View {

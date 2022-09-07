@@ -47,5 +47,6 @@ struct TabCurveView: Shape {
 struct TabCurveView_Previews: PreviewProvider {
     static var previews: some View {
         CustomTabBarView()
+            
     }
 }

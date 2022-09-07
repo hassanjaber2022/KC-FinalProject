@@ -31,13 +31,7 @@ struct Class3View: View {
                     }
                 }
             } .padding(28)
-            HStack{
-                Spacer()
-            Image("study")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 500, height: 300)
-            } .padding(.trailing, -50)
+            
         }
     }
 }

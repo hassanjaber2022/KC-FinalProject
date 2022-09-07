@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct EinglishBook: View {
+    let material = ["Einglish1","Einglish2","Einglish3","math4","Einglish5","Einglish6"]
     var body: some View {
-        Text("EinglishBook")
+        VStack{
+            ScrollView{
+        ForEach(material, id: \.self) { onemath in
+            
+            Image(onemath)
+                .resizable()
+                .scaledToFit()
+                }
+            }
+        }
+
     }
 }
 

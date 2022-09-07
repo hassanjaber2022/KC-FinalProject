@@ -9,7 +9,6 @@ import SwiftUI
 
 struct Material1: View {
     var body: some View {
-        Image("حل الكتاب")
         VStack{
                        ScrollView (.horizontal) {
         HStack{
@@ -27,9 +26,9 @@ struct Material1: View {
                 }
             
         }
-            } .padding(.leading, 7)
             
-            ScrollView (.horizontal) {
+            
+            
             HStack{
             NavigationLink(destination: MathBook()) {
                 Material6(Properties:  "Math", Book: "123 (2)")
@@ -42,10 +41,11 @@ struct Material1: View {
                     Material6(Properties:  "Islamic", Book: "mosque (1)")
                 }
             }
-        }
-    } .padding(.leading, 7)
+                       }
+        } .padding(.leading, 7)
+    }
 }
-}
+
     struct Material6: View {
         @State var Properties : String
         @State var Book : String

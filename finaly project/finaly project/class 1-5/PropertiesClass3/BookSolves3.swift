@@ -12,15 +12,15 @@ struct BookSolves3: View {
         VStack{
             ScrollView (.horizontal) {
         HStack{
-            NavigationLink(destination: SciencesBook2()) {
+            NavigationLink(destination: SciencesBook3()) {
                 material33(Properties:  "Sciences", Book: "science")
                 }
             
-            NavigationLink(destination: ArabicBook2()) {
+            NavigationLink(destination: ArabicBook3()) {
                 material33(Properties:  "Arabic", Book: "arabic-language")
             
         Spacer()
-        NavigationLink(destination: QuranBook2()) {
+        NavigationLink(destination: QuranBook3()) {
             material33(Properties:  "quran", Book: "quran")
                     }
                 }
@@ -30,14 +30,14 @@ struct BookSolves3: View {
             
             
             HStack{
-            NavigationLink(destination: MathBook2()) {
+            NavigationLink(destination: MathBook3()) {
                 material33(Properties:  "Math", Book: "123 (2)")
             }
                 Spacer()
-                NavigationLink(destination: EinglishBook2()) {
+                NavigationLink(destination: EinglishBook3()) {
                     material33(Properties:  "Einglish", Book: "alphabet")
                     }
-                NavigationLink(destination: IslamicBook2()) {
+                NavigationLink(destination: IslamicBook3()) {
                     material33(Properties:  "Islamic", Book: "mosque (1)")
                 }
             }

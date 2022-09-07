@@ -12,10 +12,15 @@ struct Home1View: View {
     @State var SecondView = ""
     var body: some View {
         NavigationView{
+            
         ZStack{
+            Color.white
+                .ignoresSafeArea()
             ScrollView{
         
         VStack {
+            
+            Spacer()
             HStack{
             
                 
@@ -31,7 +36,7 @@ struct Home1View: View {
                         } .padding(.bottom)
                 NavigationLink(destination: SettingsView()
                 ){
-                    Image(systemName: "gearshape.fill")
+                    Image(systemName: "bell")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 30, height: 30)
@@ -45,26 +50,37 @@ struct Home1View: View {
                     .font(.custom("Poppins-Light", size: 27))
                     .foregroundColor(Color("bg"))
                 Spacer()
-            }
-            HStack{
-                Text("Course of study")
-                    .font(.custom("Poppins-Bold", size: 40))
-                    .multilineTextAlignment(.leading)
-                    .foregroundColor(Color("bg"))
-                Spacer()
-            }
+            } .padding(.leading, 10.0)
             HStack{
                 
+                Text("Course of study")
+                    .font(.custom("Poppins-Medium", size: 40))
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(Color("bg"))
+                
+                Spacer()
+            } .padding(.leading, 10.0)
+            HStack{
+                
+                Spacer()
             Image(systemName: "magnifyingglass")
+                    .foregroundColor(Color.gray)
+                
             TextField("", text: $Search)
                     .placeholder(when: Search.isEmpty) {
+                        
                         Text("Search of Books").foregroundColor(.black).opacity(0.4)
                             .font(.custom("Poppins-Light", size: 17))
                     }
                 .foregroundColor(Color.black)
-            }.frame(width: 370, height: 40) .padding(5)
+                
+            }.frame(width: 360, height: 40) .padding(5)
                 .background(.gray).opacity(0.4)
                 .cornerRadius(50)
+            
+            
+        } .padding([.leading, .bottom])
+            VStack{
 
             HStack{
                 Text("Choose your")
@@ -79,47 +95,102 @@ struct Home1View: View {
                     }
             
                     NavigationLink(destination: Button2View()) {
-                        BooksButton( Books: "")
+                        BooksButton( Books: "Calendar")
                     }
                     .padding(5)
+                    NavigationLink(destination: Button3View()) {
+                        BooksButton( Books: "Ministry link")
+                    }
+                    NavigationLink(destination: Button4View()) {
+                        BooksButton( Books: "final result")
+                    }.padding(5)
                 }
             }
             
             HStack{
-            Text("Choose your")
+            Text("Choose Your Class")
+                    .font(.custom("Poppins-Bold", size: 17))
                     .padding()
             Spacer()
             }
             ScrollView(.horizontal){
                 HStack{
                 NavigationLink(destination: Class1View()) {
-                    Class(Grade: "FirstGade", hhhh: "1")
-                }
+                    Class(Grade: "Grade One", hsn: "1")
+                                        }
                 NavigationLink(destination: Class2View()) {
-                    Class(Grade: "Second Gade", hhhh: "2")
-                }
+                    Class(Grade: "Grade Two", hsn: "2")
+                                    }
                     NavigationLink(destination: Class3View()) {
-                        Class(Grade: "3", hhhh: "3")
-                    }
+                        Class(Grade: "Grade Three", hsn: "3")
+                                }
                     NavigationLink(destination: Class4View()) {
-                        Class(Grade: "4", hhhh: "4")
-                    }
+                        Class(Grade: "Grade Four", hsn: "4")
+                            }
                     NavigationLink(destination: Class5View()) {
-                        Class(Grade: "5", hhhh: "5")
+                        Class(Grade: "Grade Five", hsn: "5")
                         }
                     }
                 }
-            Spacer()
+                HStack{
+                    Text("Choose Your Class")
+                    Spacer()
+                    
+                } .padding()
+                
+                ScrollView(.horizontal){
+                HStack{
+                NavigationLink(destination: Class6View()) {
+                    Class(Grade: "Grade Six", hsn: "6")
+                    }
+                    
+                    NavigationLink(destination: Class5View()) {
+                        Class(Grade: "Grade Seven", hsn: "7")
+                        }
+                    
+                    NavigationLink(destination: Class5View()) {
+                        Class(Grade: "Grade Eight", hsn: "8")
+                        }
+                    
+                    NavigationLink(destination: Class5View()) {
+                        Class(Grade: "Grade Nine", hsn: "9")
+                        }
+                    }
+                }
+                
+                HStack{
+                    Text("Choose Your Class")
+                    Spacer()
+                } .padding()
+                
+                ScrollView(.horizontal){
+                HStack{
+                    
+                NavigationLink(destination: Class5View()) {
+                    Class(Grade: "Grade Ten", hsn: "10")
+                    }
+                    
+                    NavigationLink(destination: Class5View()) {
+                        Class(Grade: "Grade Eleven", hsn: "11")
+                        }
+                    
+                    NavigationLink(destination: Class5View()) {
+                        Class(Grade: "Grade Twele", hsn: "12")
+                        }
+                    }
+                }
             } .padding([.leading, .bottom])
+            Spacer()
         }
             
-        }.navigationBarHidden(true)
-}
-}
-}
+                }.navigationBarHidden(true)
+            }
+        }
+    }
 struct Home1View_Previews: PreviewProvider {
     static var previews: some View {
         Home1View()
+            
             
     }
 }
@@ -129,12 +200,13 @@ struct BooksButton: View {
     @State var Books : String
     var body: some View {
             Text(Books)
-            .font(.subheadline)
+            .font(.custom("Poppins-Bold", size: 16))
             .padding(.all)
+            .foregroundColor(Color("bg"))
             .frame(width: 113, height: 70)
             .background(Color("sec"))
             .cornerRadius(24)
-            .shadow(color: .gray.opacity(0.4), radius: 2, x: 2, y: 2)
+            .shadow(color: .gray.opacity(0.5), radius: 2, x: 2, y: 3)
             .overlay(
                     RoundedRectangle(cornerRadius: 24)
                         .stroke(Color("adnan"), lineWidth: 1)
@@ -145,28 +217,33 @@ struct BooksButton: View {
     }
 struct Class: View {
     @State var Grade : String
-    @State var hhhh : String
+    @State var hsn : String
     var body: some View {
         
             HStack{
                 VStack {
                     HStack{
-                Text("\(hhhh)")
+                Text("\(hsn)")
                             .font(.custom("Poppins-Regular", size: 80))
                             .frame(width: 80, height: 80)
                             .font(.largeTitle)
+                            .shadow(color: Color("bg"), radius: 5, x: 2, y: 2)
                         Spacer()
-                    }
+                            .padding(.trailing, -300)
+                    }.padding([.top, .trailing], 100)
                 Text("\(Grade)")
-                        .font(.custom("Poppins-Bold", size: 20))
-            
-                } .padding()
+                        .font(.custom("Poppins-Medium", size: 20))
+                        .multilineTextAlignment(.center)
+                        .lineLimit(200)
+                        
+                } .padding(.bottom, 156)
                 
             }
             .foregroundColor(Color.white)
             .frame(width: 172, height: 220)
             .background(
                 LinearGradient(gradient: Gradient(colors: [Color("onsec"), Color("adnan")]), startPoint: .topTrailing, endPoint: .bottom)
+                    
             )
 
         .cornerRadius(34)
