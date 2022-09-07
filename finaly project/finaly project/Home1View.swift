@@ -11,7 +11,7 @@ struct Home1View: View {
     @State var Search = ""
     @State var SecondView = ""
     var body: some View {
-        NavigationView{
+//        NavigationView{
             
         ZStack{
             Color.white
@@ -186,7 +186,7 @@ struct Home1View: View {
                 }.navigationBarHidden(true)
             }
         }
-    }
+    
 struct Home1View_Previews: PreviewProvider {
     static var previews: some View {
         Home1View()

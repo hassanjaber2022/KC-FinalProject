@@ -11,7 +11,10 @@ struct SettingsView: View {
     @State var names = ["حول", "مشاركة التطبيق"]
     var body: some View {
         List(names, id:\.self) {setting in
-            Text(setting)
+            
+            NavigationLink(destination: Text("test")) {
+                Text(setting)
+            }
         }
     }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct EinglishBook3: View {
-    let material = ["Einglish-1","Einglish-2","Einglish-3","Einglish-4"]
+    let material = ["Einglish.1","Einglish-2","Einglish-3","Einglish-4"]
     var body: some View {
         VStack{
             ScrollView{

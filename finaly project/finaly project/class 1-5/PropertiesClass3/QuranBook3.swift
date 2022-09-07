@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuranBook3: View {
-    let Quran22 = ["Quran1","Quran2","Quran3","Quran4"]
+    let Quran22 = ["Quran.1","Quran.2","Quran.3","Quran4"]
     var body: some View {
         VStack{
             ScrollView{

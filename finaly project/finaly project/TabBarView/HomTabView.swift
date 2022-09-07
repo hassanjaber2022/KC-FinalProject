@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct HomTabView: View {
-    
     @Binding var selectedTab: String
     @State var tabPoints : [CGFloat] = []
+    
     var body: some View {
+        
+        
         
         HStack(spacing: 0){
            // Tab Bar Buttons ...
@@ -57,6 +59,7 @@ struct HomTabView: View {
 struct HomTabView_Previews: PreviewProvider {
     static var previews: some View {
         CustomTabBarView()
+            
             
     }
 }
